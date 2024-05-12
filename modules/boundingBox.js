@@ -1,4 +1,4 @@
-import * as THREE from 'three';
+import * as THREE from "/node_modules/three/build/three.module.js"
 
 // check if objects is an array. If it's not, we assume it's a THREE.Group and set objects to objects.children. We then use forEach to loop over each object in objects and add a bounding box to it
 export const createBoundingBoxes = (objects) => {

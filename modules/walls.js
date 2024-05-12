@@ -1,4 +1,4 @@
-import * as THREE from "three";
+import * as THREE from "/node_modules/three/build/three.module.js";
 import wallNormalTexture from "/leather_white_4k.blend/textures/leather_white_diff_4k.jpg";
 import wallRougnessTexture from "/leather_white_4k.blend/textures/leather_white_rough_4k.jpg";
 export async function createWalls(scene, textureLoader) {

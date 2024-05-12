@@ -1,4 +1,4 @@
-import * as THREE from "three";
+import * as THREE from "/node_modules/three/build/three.module.js";
 import { PointerLockControls } from "three-stdlib";
 
 export const scene = new THREE.Scene(); // create a scene

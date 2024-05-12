@@ -1,4 +1,4 @@
-import * as THREE from "three";
+import * as THREE from "/node_modules/three/build/three.module.js";
 import { displayPaintingInfo, hidePaintingInfo } from "./paintingInfo.js";
 import { updateMovement } from "./movement.js";
 

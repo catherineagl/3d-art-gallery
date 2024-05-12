@@ -1,4 +1,4 @@
-import * as THREE from "three";
+import * as THREE from "/node_modules/three/build/three.module.js";
 import ceilingColor from "/OfficeCeiling005_4K-JPG/OfficeCeiling005_4K-JPG_Color.jpg";
 import ceilingDisplacement from "/OfficeCeiling005_4K-JPG/OfficeCeiling005_4K-JPG_Displacement.jpg";
 import ceilingAoTexture from "/OfficeCeiling005_4K-JPG/OfficeCeiling005_4K-JPG_AmbientOcclusion.jpg";

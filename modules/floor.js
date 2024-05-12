@@ -1,4 +1,4 @@
-import * as THREE from "three";
+import * as THREE from "/node_modules/three/build/three.module.js"
 import floorColor from "/WoodFloor040_4K-JPG/WoodFloor040_4K-JPG_Color.jpg";
 import floorDisplacementTexture from "/WoodFloor040_4K-JPG/WoodFloor040_4K-JPG_Displacement.jpg";
 import floorNormalTexture from "/WoodFloor040_4K-JPG/WoodFloor040_4K-JPG_NormalGL.jpg";
