@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/3D-art-gallery',
+  base: 'https://catherineagl.github.io/',
   build: {
     rollupOptions: {
       input: '/main.js',
