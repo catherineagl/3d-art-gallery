@@ -1,11 +1,11 @@
 import * as THREE from "three";
-import ceilingColor from "../public/OfficeCeiling005_4K-JPG/OfficeCeiling005_4K-JPG_Color.jpg";
-import ceilingDisplacement from "../public/OfficeCeiling005_4K-JPG/OfficeCeiling005_4K-JPG_Displacement.jpg";
-import ceilingAoTexture from "../public/OfficeCeiling005_4K-JPG/OfficeCeiling005_4K-JPG_AmbientOcclusion.jpg";
-import ceilingEmission from "../public/OfficeCeiling005_4K-JPG/OfficeCeiling005_4K-JPG_Emission.jpg";
-import ceilingMetalness from "../public/OfficeCeiling005_4K-JPG/OfficeCeiling005_4K-JPG_Metalness.jpg";
-import ceilingNormalGL from "../public/OfficeCeiling005_4K-JPG/OfficeCeiling005_4K-JPG_NormalGL.jpg";
-import ceilingRoughness from "../public/OfficeCeiling005_4K-JPG/OfficeCeiling005_4K-JPG_Roughness.jpg";
+import ceilingColor from "/OfficeCeiling005_4K-JPG/OfficeCeiling005_4K-JPG_Color.jpg";
+import ceilingDisplacement from "/OfficeCeiling005_4K-JPG/OfficeCeiling005_4K-JPG_Displacement.jpg";
+import ceilingAoTexture from "/OfficeCeiling005_4K-JPG/OfficeCeiling005_4K-JPG_AmbientOcclusion.jpg";
+import ceilingEmission from "/OfficeCeiling005_4K-JPG/OfficeCeiling005_4K-JPG_Emission.jpg";
+import ceilingMetalness from "/OfficeCeiling005_4K-JPG/OfficeCeiling005_4K-JPG_Metalness.jpg";
+import ceilingNormalGL from "/OfficeCeiling005_4K-JPG/OfficeCeiling005_4K-JPG_NormalGL.jpg";
+import ceilingRoughness from "/OfficeCeiling005_4K-JPG/OfficeCeiling005_4K-JPG_Roughness.jpg";
 
 // create a function that takes a scene and a textureLoader as arguments that will be passed in from main.js where the createCeiling is called
 export const createCeiling = async (scene, textureLoader) => {

@@ -1,6 +1,6 @@
 import * as THREE from "three";
-import wallNormalTexture from "../public/leather_white_4k.blend/textures/leather_white_diff_4k.jpg";
-import wallRougnessTexture from "../public/leather_white_4k.blend/textures/leather_white_rough_4k.jpg";
+import wallNormalTexture from "/leather_white_4k.blend/textures/leather_white_diff_4k.jpg";
+import wallRougnessTexture from "/leather_white_4k.blend/textures/leather_white_rough_4k.jpg";
 export async function createWalls(scene, textureLoader) {
   let wallGroup = new THREE.Group();
   scene.add(wallGroup);

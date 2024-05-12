@@ -1,9 +1,9 @@
 import * as THREE from "three";
-import floorColor from "../public/WoodFloor040_4K-JPG/WoodFloor040_4K-JPG_Color.jpg";
-import floorDisplacementTexture from "../public/WoodFloor040_4K-JPG/WoodFloor040_4K-JPG_Displacement.jpg";
-import floorNormalTexture from "../public/WoodFloor040_4K-JPG/WoodFloor040_4K-JPG_NormalGL.jpg";
-import floorRoughnessTexture from "../public/WoodFloor040_4K-JPG/WoodFloor040_4K-JPG_Roughness.jpg";
-import floorAoTexture from "../public/WoodFloor040_4K-JPG/WoodFloor040_4K-JPG_AmbientOcclusion.jpg";
+import floorColor from "/WoodFloor040_4K-JPG/WoodFloor040_4K-JPG_Color.jpg";
+import floorDisplacementTexture from "/WoodFloor040_4K-JPG/WoodFloor040_4K-JPG_Displacement.jpg";
+import floorNormalTexture from "/WoodFloor040_4K-JPG/WoodFloor040_4K-JPG_NormalGL.jpg";
+import floorRoughnessTexture from "/WoodFloor040_4K-JPG/WoodFloor040_4K-JPG_Roughness.jpg";
+import floorAoTexture from "/WoodFloor040_4K-JPG/WoodFloor040_4K-JPG_AmbientOcclusion.jpg";
 
 export const setupFloor = async (scene) => {
   const textureLoader = new THREE.TextureLoader();
